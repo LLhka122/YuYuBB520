@@ -3,7 +3,7 @@
 	window.location.href='start.html';
 }		
 			
-	var person=prompt("请输入你的名字","输入进校或出校");
+	var person=prompt("宝贝猪想出校还是进校呀","输入进校或出校");
 	if (person!=null && person=="进校")
 {
  	window.location.href='jinxiao.html';
