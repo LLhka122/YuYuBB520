@@ -1,3 +1,30 @@
+
+
+
+            function checkTime(i)
+
+            {
+
+                if (i<10){
+
+                    i="0" + i;
+
+                }
+
+                  return i;
+
+            }
+		//var name = prompt("请输入你的名字","名字");
+		///var mm = prompt("请输入你的学号","学号");
+		//if(name!='aaaa'){
+			x=document.getElementById("demo");  //查找元素
+			//var a="进校："+name+'<br>-'+mm+"，<br>白名单验证通过"
+                        var a="刘洁钰-201942010324"
+			x.innerHTML=a;    //改变内容
+		//}
+//		document.write("<p style='color: red;'>"+name+"</p>")
+
+
 function startTime()
 
             {
@@ -33,28 +60,3 @@ function startTime()
                 setTimeout('startTime()',3);//每一秒中重新加载startTime()方法
 
             }
-
-
-
-            function checkTime(i)
-
-            {
-
-                if (i<10){
-
-                    i="0" + i;
-
-                }
-
-                  return i;
-
-            }
-		//var name = prompt("请输入你的名字","名字");
-		///var mm = prompt("请输入你的学号","学号");
-		//if(name!='aaaa'){
-			x=document.getElementById("demo");  //查找元素
-			//var a="进校："+name+'<br>-'+mm+"，<br>白名单验证通过"
-                        var a="刘洁钰-201942010324"
-			x.innerHTML=a;    //改变内容
-		//}
-//		document.write("<p style='color: red;'>"+name+"</p>")
