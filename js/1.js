@@ -19,7 +19,7 @@
 		//if(name!='aaaa'){
 			x=document.getElementById("demo");  //查找元素
 			//var a="进校："+name+'<br>-'+mm+"，<br>白名单验证通过"
-                        var a="刘洁钰-201942010324"
+                        var a="刘洁钰-201942010324";
 			x.innerHTML=a;    //改变内容
 		//}
 //		document.write("<p style='color: red;'>"+name+"</p>")
