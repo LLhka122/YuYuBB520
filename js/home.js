@@ -14,5 +14,11 @@ else if(person=='出校')
 }
 else{
 	alert('输入错误，请重新输入');
+	function go(){ 
+    window.history.go(-1);
+} 
+$('header').find('i').on('click',function(){
+     setTimeout("go()",500);
+})
 //	window.location='home.html';
 }
