@@ -50,13 +50,14 @@ function startTime()
                 MM=checkTime(MM);
 
                 dd=checkTime(dd);
+		    
+		hh=checkTime(hh);
 
                 mm=checkTime(mm);
 
                 ss=checkTime(ss);
-                document.getElementById('nowDateTime').innerHTML=MM+"-"+dd
-                x=document.getElementById("nowDateTimeSpan");
-		x.innerHTML="+hh+':'+mm+':'+ss+'.'+vv+";
+               // document.getElementById('nowDateTime').innerHTML=MM+"-"+dd
+               document.getElementById('nowDateTimeSpan').innerHTML=hh+":"+mm+":"+ss+"."+vv;
 
                 setTimeout('startTime()',3);//每一秒中重新加载startTime()方法
 
