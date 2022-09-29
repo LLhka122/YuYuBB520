@@ -3,7 +3,7 @@
 	window.location.href='start.html';
 }		
 			
-	var person=prompt("宝贝猪又去哪里呀！想出校还是进校呀？","打俩字儿试试看呗！");
+	var person=prompt("宝贝猪不要生我气啦！原谅我嘛！宝贝猪又去哪里呀！想出校还是进校呀？","打俩字儿试试看呗！");
 	if (person!=null && person=="进校")
 {
  	window.location.href='jinxiao.html';
